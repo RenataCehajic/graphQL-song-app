@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "nodemon index.js --ignore client",
-    "build": "npm run build"
+    "build": "react-scripts build"
   },
   "author": "",
   "license": "ISC",
