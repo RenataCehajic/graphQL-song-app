@@ -19,9 +19,9 @@ class SongCreate extends Component {
         variables: {
           title: this.state.title,
         },
-        refetchQueries: [{ query }],
+        refetchQueries: [{ query }], //here you want to refetch another component, not this one
       })
-      .then(() => hashHistory.push("/"));
+      .then(() => hashHistory.push("/")); //here you want to refetch another component, not this one
 
     // console.log(this.props);
   }
