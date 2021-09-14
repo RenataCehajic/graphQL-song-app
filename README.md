@@ -1,2 +1,3 @@
 # Lyrical-GraphQL
-Starter project from a GraphQL course on Udemy.com
+
+This app allows users to add lyrics and create their own songs.
